@@ -30,7 +30,7 @@ namespace Meraki.Api.Data
 		/// </summary>
 		[ApiAccess(ApiAccess.Read)]
 		[DataMember(Name = "name")]
-		public string Name { get; set; } = string.Empty;
+		public string? Name { get; set; }
 
 		/// <summary>
 		/// Model
@@ -44,7 +44,7 @@ namespace Meraki.Api.Data
 		/// </summary>
 		[ApiAccess(ApiAccess.Read)]
 		[DataMember(Name = "networkId")]
-		public string NetworkId { get; set; } = string.Empty;
+		public string? NetworkId { get; set; }
 
 		/// <summary>
 		/// Order number
